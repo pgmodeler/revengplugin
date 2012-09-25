@@ -1,15 +1,15 @@
 EngReversaPlugin
-================
+----------------
 
 Reverse engeenering plugin
 
 SQL Commands
-============
+------------
 
 * Roles:
 
-     /* List all roles */
-     SELECT rolname FROM pg_roles;
+    /* List all roles */
+    SELECT rolname FROM pg_roles;
 
      /* List attributes of given role ${name} */
      SELECT rl.rolname AS name, rl.rolsuper AS superuser, rl.rolinherit AS inherit,
